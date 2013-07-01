@@ -4,6 +4,9 @@ def polyCubeRange(xx):
     for x in range(xx):
         mc.polyCube()
 
-def polyPrimsRange(xx):
+def polyPrismRange(xx):
     for x in range(xx):
         mc.polyPrism()
+
+def createSphere():
+    mc.polySphere()
