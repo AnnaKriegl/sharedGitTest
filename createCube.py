@@ -1,4 +1,5 @@
 import maya.cmds as mc
 
-for x in range(10):
-    mc.polyCube()
+def polyCubeRange(xx):
+    for x in range(xx):
+        mc.polyCube()
